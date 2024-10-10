@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    /* Reset some default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .div{
+      background-color: rgba(34, 0, 255, 0.311);
+      
+      
+     
+
+    }
+    h1{
+      padding-right: 200px;
+      padding-left: 200px;
+
+    }
+
+    /* Style the header */
+    .txt {
+      text-align: center;
+     /* text-decoration: line-through;*/
+      display: inline-block;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .logo {
+      width: 200px;
+      height: 100px;
+      top: 0;
+      left: 0;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #333;
+      overflow: hidden;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+
+    /* Iframe layout */
+    iframe {
+      display: block;
+      margin: 10px auto;
+      border: 1px solid #ccc;
+    }
+
+    iframe[name="#reg"] {
+      height: 50vh;
+    }
+
+    iframe[name="#login"] {
+      height: 50vh;
+    }
+
+    iframe[name="#course"] {
+      height: 50vh;
+    }
+
+    /* General iframe styling */
+    iframe {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Welcome Heading -->
+   <div class="div">
+
+
+     <img class="logo" src="./default_logo1.png" alt="logo">
+     <h1 class="txt">
+       KIET GROUP OF INSTITUTION</h1>
+      </div>
+
+  <!-- Simple Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="Home.html" target="_blank">Home</a></li> <!-- Opens in a new tab -->
+      <li><a href="Registration.html" target="_blank">Registration</a></li> <!-- Opens in a new tab -->
+      <li><a href="Course.html" target="_blank">Course Details</a></li> <!-- Opens in a new tab -->
+      <li><a href="Login.html" target="_blank">Login</a></li> <!-- Opens in a new tab -->
+    </ul>
+  </nav>
+
+  <!-- Frames for Content -->
+  <iframe src="Registration.html" name="#reg"></iframe>
+   <iframe src="Login.html" name="#login"></iframe>
+   <iframe src="Course.html" name="#course"></iframe>
+
+  <p> 
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non odit impedit repudiandae. Nemo est iusto eos eaque consequatur alias nostrum aliquam quos et, ipsum tempora, officiis vitae quaerat. Est, cum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nisi praesentium dolores, ratione nostrum id. Natus accusantium quae, sint rerum, esse excepturi reiciendis nesciunt ipsa eum iure dolor sit.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo ipsa voluptatum est animi, cumque dolores blanditiis in necessitatibus earum nobis dolorum explicabo autem sapiente facilis suscipit? Quod, deserunt tempore?
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vitae cupiditate, sit iure exercitationem accusamus veritatis deleniti voluptatem repudiandae quae libero omnis nihil accusantium nesciunt molestiae eligendi harum. Doloremque, repellat.
+</p>
+
+</body>
+</html>
